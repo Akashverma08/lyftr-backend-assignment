@@ -58,7 +58,7 @@ Verify installation:
 
 Clone the repository:
 ```bash
-git clone https://github.com/Akashverma08/lyftr-backend-assignment.git
+git clone https://github.com/Shashwatmani/lyftr-backend-assignment.git
 cd lyftr
 
 ```bash
