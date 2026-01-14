@@ -25,20 +25,22 @@ across different environments.
 
 ## Project Structure
 
+```text
 .
 ├── app/
-│ ├── main.py
-│ ├── config.py
-│ ├── logging_utils.py
-│ ├── metrics.py
-│ ├── models.py
-│ └── storage.py
+│   ├── main.py
+│   ├── config.py
+│   ├── logging_utils.py
+│   ├── metrics.py
+│   ├── models.py
+│   └── storage.py
 ├── Dockerfile
 ├── docker-compose.yml
 ├── requirements.txt
 ├── Makefile
 ├── .gitignore
 └── README.md
+
 
 
 
