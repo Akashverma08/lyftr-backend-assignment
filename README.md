@@ -53,6 +53,47 @@ Ensure the following are installed on your system:
 
 Verify installation:
 
+
+Clone the repository:
+```bash
+git clone https://github.com/Akashverma08/lyftr-backend-assignment.git
+cd lyftr-backend-assignment
+
 ```bash
 docker --version
 docker compose version
+
+
+http://localhost:8000
+
+http://localhost:8000/docs
+
+
+
+---
+
+### 2 Add **API Endpoints Overview** (Very Important)
+
+Recruiters **love this**. Add:
+
+```md
+## Available API Endpoints
+
+| Method | Endpoint          | Description                     |
+|------|-------------------|---------------------------------|
+| POST | /webhook          | Receive webhook messages        |
+| GET  | /messages         | List received messages          |
+| GET  | /stats            | Message statistics              |
+| GET  | /health/live      | Liveness check                  |
+| GET  | /health/ready     | Readiness check                 |
+| GET  | /metrics          | Application metrics             |
+
+
+
+## Setup Used
+
+- VS Code as the primary code editor
+- Docker Desktop with WSL2 backend (Windows)
+- Git & GitHub for version control
+- GitHub Copilot
+- Occasional ChatGPT prompts for guidance and validation
