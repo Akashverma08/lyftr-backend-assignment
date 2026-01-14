@@ -59,7 +59,7 @@ Verify installation:
 Clone the repository:
 ```bash
 git clone https://github.com/Akashverma08/lyftr-backend-assignment.git
-cd lyftr-backend-assignment
+cd lyftr
 
 ```bash
 docker --version
